@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es5", // Specify the ECMAScript target version
+      "module": "esnext", // Specify the module code generation
+      "strict": true, // Enable all strict type-checking options
+      "jsx": "react", // Specify the JSX code generation
+      "esModuleInterop": true, // Enable compatibility with CommonJS modules
+      "forceConsistentCasingInFileNames": true, // Enforce consistent file casing
+      "moduleResolution": "node", // Specify module resolution strategy
+      "resolveJsonModule": true, // Enable importing JSON files as modules
+      "isolatedModules": true, // Ensure each file is treated as a separate module
+      "noEmit": false, // Do not emit output files
+      "strictNullChecks": true, // Enable strict null checks
+      "strictFunctionTypes": true, // Enable strict checking of function types
+      "noImplicitAny": true, // Disallow usage of the any type
+      "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+      "skipLibCheck": true, // Skip type checking of declaration files
+      "lib": ["dom", "es2015", "es2017", "esnext.asynciterable"], // Specify the library files to be included
+      "outDir": "./dist" 
+    },
+    "include": ["src/**/*"] // Specify the files to be included in the compilation
+  }
